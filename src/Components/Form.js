@@ -12,7 +12,7 @@ function Form() {
       `https://apex.oracle.com/pls/apex/rupinikatwo/quotes/post?author=${author}&quotes=${quotes}`,
       { method: "POST" }
     );
-    navigate("/");
+    navigate("/Quotes");
   }
   function authorChange(event) {
     setAuthor(event.target.value);
